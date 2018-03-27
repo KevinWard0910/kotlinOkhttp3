@@ -1,0 +1,56 @@
+ext{
+    var=[
+            //build env
+            defaultEnv : "uat1",
+            //app版本号!!!!!
+            versionName: "1.0.0",
+            //app Version code!!!!!!!!
+            versionCode:1,
+
+            //applicationId
+            applicationId: 'com.redstar.mainapp',
+
+
+            //SDK and Tools
+            minSdkVersion:19,
+            targetSdkVersion:25,
+            compileSdkVersion:25,
+            buildToolsVersion:"25.0.3",
+
+            //android dependencies
+            junitVersion:"junit:junit:4.12",
+            supportAppcompatVersion:"com.android.support:appcompat-v7:25.4.0",
+            supportDesignVersion:"com.android.support:design:25.3.1",
+            supportrecyclerviewVersion:"com.android.support:recyclerview-v7:25.4.0",
+
+            /*
+            redstar lib
+             */
+            //middle lib
+            redstarMiddleLibVersion_Release:"com.chinaredstar.android:middlelib:1.0.44:release@aar",
+            redstarMiddleLibVersion_Snapshot:"com.chinaredstar.android:middlelib:1.0.44-SNAPSHOT:debug@aar",
+            //network
+            redstarNetworkLibVersion:'com.chinaredstar.android:network:1.0.1',
+            redstarNetworkLibVersion_Snapshot:'com.chinaredstar.android:network:1.0.2-SNAPSHOT',
+            //hx library
+            redstarBaseLibVersion_Release: "com.chinaredstar.android:hx-base-library:1.0.3:release@aar",
+            redstarBaseLibVersion_Snapshot: "com.chinaredstar.android:hx-base-library:1.0.3-SNAPSHOT:debug@aar",
+
+            /*
+            third party lib
+             */
+
+            //fresco
+            facebookFrescoVersion:"com.facebook.fresco:fresco:0.12.0",
+            facebookFrescoImagepipelineOkhttp3:"com.facebook.fresco:imagepipeline-okhttp3:0.12.0",
+            //okhttp
+            SquareupOkhttp3Version:"com.squareup.okhttp3:okhttp:3.8.1",
+            webCache:"com.chinaredstar.components:webcache:1.0.0",
+            //third party tab
+            homhomlinlib:"homhomlin.lib:apsts:1.8.0",
+            kotlinReflect:"org.jetbrains.kotlin:kotlin-reflect:1.2.30",
+            kotlin_stdlib_jre7:"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version",
+            log:"com.orhanobut:logger:2.1.1",
+            gson :"com.google.code.gson:gson:2.7"
+    ]
+}

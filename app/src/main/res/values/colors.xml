@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_blue">#439DF7</color>
+    <color name="main_white">#fff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="gray">#FFBDBEBD</color>
+    <color name="gray666">#666666</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_f9ffff">#F9FFFF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="black">#FF000000</color>
+    <color name="tm_white">#bFFFFFFF</color>
+    <color name="tm_black">#b0000000</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="orange2">#FFFF6300</color>
+    <color name="pale_red">#FF4C4C</color>
+    <color name="red_ff8080">#FF8080</color>
+    <color name="red_FF4C51">#FF4C51</color>
+    <color name="red_FF454A">#FF454A</color>
+    <color name="red_D9353D">#D9353D</color>
+    <color name="pale_red2">#0DFF4C4C</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="green">#FF00FF00</color>
+    <color name="pink">#FFFFC0CB</color>
+    <color name="red">#FFFF0000</color>
+    <color name="deepgray">#FF535252</color>
+    <color name="lightgray">#FFD3D3D3</color>
+    <color name="darkred">#A0FF0000</color>
+    <color name="palered">#FFCE8A8A</color>
+    <color name="darkblue">#A00000FF</color>
+    <color name="darkgreen">#A000FF00</color>
+    <color name="listbg">#C01E1E1E</color>
+    <color name="drawerheader">#FF434343</color>
+    <color name="sold_color2">#FFE4E1</color>
+    <color name="type_black">#444444</color>
+    <color name="content_bg_color">#f5f5f5</color>
+</resources>

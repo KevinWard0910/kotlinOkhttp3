@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg_color"
+    tools:context="qiaoping.com.kotlintest.business.main.MainActivity">
+
+
+    <com.lhh.apst.library.CustomPagerSlidingTabStrip
+        android:id="@+id/pager_sliding_tab"
+        style="@style/pagertab_style"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <qiaoping.com.kotlintest.frame.widget.APSTSViewPager
+        android:id="@+id/apsts_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/pager_sliding_tab"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/pager_sliding_tab"
+        android:background="#e4e4e4" />
+
+</RelativeLayout>

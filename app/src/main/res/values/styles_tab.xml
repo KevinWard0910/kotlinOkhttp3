@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--apTabIndicatorColor 导航条的颜色
+        apTabUnderlineColor Tab底部下划线的颜色
+        apTabDividerColor 每个Tab之间的分割线颜色
+        apTabstabTextSelectColor 被选中的Tab的文本字体颜色
+        apTabIndicatorHeight 导航条的高度
+        apTabUnderlineHeight Tab底部下划线的高度
+        apTabDividerPadding Tab分割线的padding
+        apTabPaddingLeftRight 每个Tab的左右padding
+        apTabPaddingTopBottom 每个Tab的上下padding
+        apTabScrollOffset 选中tab的滑动offset
+        apTabBackground tab的背景
+        apTabShouldExpand 伸缩情况，如果为真，每个tab都是相同的weight，默认是false
+        apTabTextAllCaps Tab的文字是否为全部大写，如果是true就全部大写，默认为true
+        apTabTextSelectColor 你所选择的那个tab的颜色
+        apTabDrawMode 绘制模式，text或者normal，用于是否将下划线绘制为跟随TextView
+    -->
+    <style name="pagertab_style">
+        <item name="android:background">@color/main_white</item>
+        <item name="apTabBackground">@color/red</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="apTabIndicatorColor">@color/gray</item>
+        <item name="apTabUnderlineColor">#1A000000</item>
+        <item name="apTabDividerColor">#00000000</item>
+        <item name="apTabShouldExpand">false</item>
+        <item name="apTabPaddingLeftRight">8dp</item>
+        <item name="apTabDrawMode">text</item>
+        <item name="apTabTextSelectColor">@color/gold</item>
+    </style>
+</resources>
